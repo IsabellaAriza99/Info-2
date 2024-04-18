@@ -1,0 +1,31 @@
+ID,Nombre_dispositivo,Fabricante,Clasificacion_riesgo
+1,Monitor de signos vitales,MedTech,Bajo
+2,Desfibrilador,LifeCare,Moderado
+3,Electrocardiograma,CardioTech,Alto
+4,Respirador,RespiraCorp,Bajo
+5,Bomba de infusión,InfuseCo,Moderado
+6,Monitor de gases en sangre,CardioTech,Alto
+7,Bomba de insulina intravenosa,CardioTech,Alto
+8,Monitor de ritmo cardíaco,CardioTech,Bajo
+9,Monitor de signos vitales neonatal,MedTech,Bajo
+10,Monitor de gases en sangre,RespiraCorp,Bajo
+11,Bomba de infusión de morfina,MedTech,Bajo
+12,Electrocardiógrafo ambulatorio,InfuseCo,Bajo
+13,Bomba de perfusión de insulina,CardioTech,Moderado
+14,Monitor de presión intracraneal,RespiraCorp,Moderado
+15,Monitor de constantes vitales,CardioTech,Alto
+16,Desfibrilador manual,MedTech,Moderado
+17,Desfibrilador pediátrico,LifeCare,Bajo
+18,Desfibrilador pediátrico,MedTech,Bajo
+19,Bomba de infusión de medicamentos,CardioTech,Alto
+20,Desfibrilador externo automático,CardioTech,Moderado
+21,Electrocardiógrafo ambulatorio,LifeCare,Moderado
+22,Desfibrilador manual,MedTech,Bajo
+23,Desfibrilador manual,LifeCare,Alto
+24,Bomba de infusión de medicamentos,MedTech,Bajo
+25,Bomba de insulina,LifeCare,Bajo
+26,Desfibrilador portátil,MedTech,Moderado
+27,Desfibrilador manual,MedTech,Alto
+28,Monitor de glucosa continua,LifeCare,Moderado
+29,Bomba de perfusión de insulina,CardioTech,Alto
+30,Bomba de perfusión de insulina,LifeCare,Bajo
