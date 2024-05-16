@@ -16,7 +16,7 @@ QMessageBox: Es una clase que proporciona un cuadro de diálogo para mostrar men
 class Ventana(QMainWindow):
     def __init__(self): #Constructor de la clase
         QMainWindow.__init__(self)
-        loadUi(r'Unidad 4\Ejemplo_log_reg\VentanaLogin.ui', self)
+        loadUi(r'Ejemplo_log_reg\VentanaLogin.ui', self)
         self.setup()
 
 
@@ -66,7 +66,7 @@ class Ventana(QMainWindow):
 class ventanaEmergente(QDialog):
     def __init__(self, ppl=None):  # Añadir el argumento parent
         super().__init__(ppl)
-        loadUi(r"Unidad 4\Ejemplo_log_reg\Ventana_emergente.ui", self) # Lee el archivo de QtDesigner
+        loadUi(r"Ejemplo_log_reg\Ventana_emergente.ui", self) # Lee el archivo de QtDesigner
         self.setWindowTitle("Ventana emergente") # Añadimos un título a nuestra ventana
         self.setup()
         self.parent = ppl  # Guardar la referencia al padre
@@ -78,7 +78,8 @@ class ventanaEmergente(QDialog):
 
     def registro(self):
         # Extraer el texto de los campos campo_usuario y campo_password.
-        self.campo_usuario.setValidator(QRegExpValidator(QRegExp(r'^[\w\.-]+@[\w\.-]+\.\w+$')))
+        #self.campo_usuario.setValidator(QRegExpValidator(QRegExp(r'^[\w\.-]+@[\w\.-]+\.\w+$')))
+        self.campo_usuario.setValidator(QRegExpValidator(QRegExp(r'^[a-zA-Z]')))
         usuario = self.campo_usuario.text()
         password = self.campo_password.text()
 
@@ -88,5 +89,5 @@ class ventanaEmergente(QDialog):
             self.close()
         else:
             # Mostrar un mensaje de error si el correo no es válido
-            print("Correo electrónico no válido")
+            print("Usuario inválido")
 
